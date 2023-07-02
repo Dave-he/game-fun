@@ -12,6 +12,11 @@ import java.util.Map;
 
 public class Main {
 
+    /**
+     * 主入口
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
         Robot robot = new Robot();
         Screen screen = new Screen(robot);
