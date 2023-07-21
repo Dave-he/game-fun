@@ -15,12 +15,11 @@ public class Main {
     /**
      * 主入口
      * @param args
-     * @throws Exception
      */
     public static void main(String[] args) throws Exception {
         Robot robot = new Robot();
         Screen screen = new Screen(robot);
-        Map<String, Integer> map = new HashMap<>();
+        Map<String, Integer> map = new HashMap<String, Integer>();
         Manager.init("./img/card");
         boolean first = true;
         while (true) {

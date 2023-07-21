@@ -19,6 +19,7 @@ public class Screen {
     private Rectangle baseRect;
     private Robot robot;
     private List<Card> cardList;
+    private List<Region> regionList;
 
     public Screen(Robot robot) {
         this.robot = robot;
